@@ -41,14 +41,14 @@ else:
 
 # ALLOWED_HOSTS = ['localhost', '127.0.0.1', '*']
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'tenantsdeploy.up.railway.app',
-                 'TTugTTag.sbs',
-                 '.TTugTTag.sbs',
+                 'ttugttag.sbs',
+                 '.ttugttag.sbs',
                 ]
 
 # CSRF_TRUSTED_ORIGINS = [ 'https://*' ]
 CSRF_TRUSTED_ORIGINS = [ 'https://tenantsdeploy.up.railway.app',
-                         'https://TTugTTag.sbs',
-                         'https://*.TTugTTag.sbs',
+                         'https://ttugttag.sbs',
+                         'https://*.ttugttag.sbs',
                        ]
 
 INTERNAL_IPS = (
