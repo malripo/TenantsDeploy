@@ -233,8 +233,8 @@ STORAGES = {
         # "BACKEND": "django.core.files.storage.FileSystemStorage",
         # "BACKEND": "cloudinary_storage.storage.MediaCloudinaryStorage",
         # "BACKEND": "django_tenants.files.storage.TenantFileSystemStorage",
-        # "BACKEND": "a_home.storage.CustomSchemaStorage",
-        "BACKEND": "storages.backends.s3.S3Storage",
+        "BACKEND": "a_home.storage.CustomSchemaStorage",
+        # "BACKEND": "storages.backends.s3.S3Storage",
         },
     "staticfiles": {
         "BACKEND": "django.contrib.staticfiles.storage.StaticFilesStorage",
